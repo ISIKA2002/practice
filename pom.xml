@@ -5,7 +5,7 @@
   <artifactId>calculator</artifactId>
   <packaging>war</packaging>
   <version>1.0</version>
-  <name>Calculator Program for intellipaat DevOps MARCH-2024 Program</name>
+  <name>Calculator Program for intellipaat DevOps MAR-2024 Program</name>
 
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
