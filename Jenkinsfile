@@ -7,11 +7,6 @@ pipeline {
         sh 'mvn clean compile'
       }
     }
-     stage('Hello') {
-      steps{
-        sudo 'hello world'
-}
-}
     stage('UnitTest') {
       steps{
         sh 'mvn clean test'
@@ -23,5 +18,5 @@ pipeline {
         sh 'mvn clean package'
       }
     }
-}
+  }
 }
